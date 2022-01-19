@@ -1,0 +1,22 @@
+{
+  "name": "LoginModule",
+  "version": "0.1.0",
+  "summary": "A short description of LoginModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhuwenqi/LoginModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhuwenqi": "wenqi.zhu@qihuishou.com"
+  },
+  "source": {
+    "git": "https://github.com/zhuwenqi/LoginModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LoginModule/Classes/**/*"
+}
