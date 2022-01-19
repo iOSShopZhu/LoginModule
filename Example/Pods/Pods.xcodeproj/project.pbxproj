@@ -15,8 +15,6 @@
 		7BB758A6D76EC49240AAF178D7F23A43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8618FFADBAD3E530DBC9B3B7B3A5B443 /* Pods-LoginModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD970E70C4604427B9D5ACD7838FC76D /* Pods-LoginModule_Tests-dummy.m */; };
 		89EB62345D270454A36C9660D15CEBEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A812022B2797EA240002FDDC /* Target-Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81202292797EA240002FDDC /* Target-Account.swift */; };
-		A812022C2797EA240002FDDC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A812022A2797EA240002FDDC /* LoginViewController.swift */; };
 		E728F62FD55003238A1FD52D6E022420 /* Pods-LoginModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A519E3A29B74ADA82B51F3F83D67410 /* Pods-LoginModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -59,8 +57,6 @@
 		8A16DF2FB89FE3681E558238C521FB2E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A251AD2CF669AD103A29F64B570D87E7 /* Pods-LoginModule_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LoginModule_Tests"; path = Pods_LoginModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A81202292797EA240002FDDC /* Target-Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Target-Account.swift"; sourceTree = "<group>"; };
-		A812022A2797EA240002FDDC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AAAA48F36F5A1BB735824C1AA40304C5 /* Pods-LoginModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ABBD7FB1571E7DE92961F23898025216 /* Pods-LoginModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AD970E70C4604427B9D5ACD7838FC76D /* Pods-LoginModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginModule_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -179,8 +175,6 @@
 		B68FB795FBD6BA22740679C6D49A34EB /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A812022A2797EA240002FDDC /* LoginViewController.swift */,
-				A81202292797EA240002FDDC /* Target-Account.swift */,
 				86600FF5EE956D0FAA1BEA75D06935AF /* LICENSE */,
 				E8452089A7FACA674649B8DFB1F9F43D /* LoginModule.podspec */,
 				8A16DF2FB89FE3681E558238C521FB2E /* README.md */,
@@ -386,9 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A812022C2797EA240002FDDC /* LoginViewController.swift in Sources */,
 				5FF5644847B9349D923CF9DB4772339E /* LoginModule-dummy.m in Sources */,
-				A812022B2797EA240002FDDC /* Target-Account.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
